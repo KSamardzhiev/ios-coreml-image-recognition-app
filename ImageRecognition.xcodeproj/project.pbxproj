@@ -17,6 +17,7 @@
 		F81A80FA278E0FDD00858699 /* ImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A80F9278E0FDD00858699 /* ImageRecognitionTests.swift */; };
 		F81A8104278E0FDD00858699 /* ImageRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A8103278E0FDD00858699 /* ImageRecognitionUITests.swift */; };
 		F81A8106278E0FDD00858699 /* ImageRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A8105278E0FDD00858699 /* ImageRecognitionUITestsLaunchTests.swift */; };
+		F81A8113278E114000858699 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F81A8112278E114000858699 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F81A80FF278E0FDD00858699 /* ImageRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81A8103278E0FDD00858699 /* ImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		F81A8105278E0FDD00858699 /* ImageRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F81A8112278E114000858699 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F81A80ED278E0FDD00858699 /* LaunchScreen.storyboard */,
 				F81A80F0278E0FDD00858699 /* Info.plist */,
 				F81A80E8278E0FD900858699 /* ImageRecognition.xcdatamodeld */,
+				F81A8112278E114000858699 /* Inceptionv3.mlmodel */,
 			);
 			path = ImageRecognition;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81A8113278E114000858699 /* Inceptionv3.mlmodel in Sources */,
 				F81A80E4278E0FD900858699 /* ViewController.swift in Sources */,
 				F81A80EA278E0FD900858699 /* ImageRecognition.xcdatamodeld in Sources */,
 				F81A80E0278E0FD900858699 /* AppDelegate.swift in Sources */,
