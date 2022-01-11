@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Application needs these permission in order to be able select from your photo library</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Application needs these permission in order to be able to take photos</string>
 </dict>
 </plist>
