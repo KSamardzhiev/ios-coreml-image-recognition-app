@@ -46,7 +46,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 fatalError("Unable to procces the image")
             }
             
-            print(results)
+            if let firstResult = results.first {
+                self.navigationItem.title = firstResult.identifier
+            }
         }
         
         let handler = VNImageRequestHandler(ciImage: image)
